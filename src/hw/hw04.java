@@ -5,11 +5,186 @@ package hw;
  * Author: 1050210XX 周永振老師
  */
 
+import java.util.Scanner;
+
 public class hw04 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+		Scanner sca=new Scanner(System.in);
+		String x=sca.nextLine();
+		System.out.println(x+" ");
+		number.fun1(x);
+ }
 }
+
+ class number{
+	 public static void fun1(String x){
+		 for(int i=0;i<5;i++)
+		 {
+			 for(int j=0;j<x.length();j++){
+				 switch(x.charAt(j)){
+				 case '0':
+					 if(i==0){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==1){
+						 System.out.print(" *   * ");
+					 }
+					 else if(i==2){
+						 System.out.print(" *   * ");
+					 }
+					 else if(i==3){
+						 System.out.print(" *   * ");
+					 }
+					 else if(i==4){
+						 System.out.print(" ***** ");
+					 }break;
+				 case '1':
+					 if(i==0){
+						 System.out.print("   *   ");
+					 }else if(i==1){
+						 System.out.print("   *   ");
+					 }
+					 else if(i==2){
+						 System.out.print("   *   ");
+					 }
+					 else if(i==3){
+						 System.out.print("   *   ");
+					 }
+					 else if(i==4){
+						 System.out.print("   *   ");
+					 }break;
+				 case '2':
+					 if(i==0){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==1){
+						 System.out.print("     * ");
+					 }
+					 else if(i==2){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==3){
+						 System.out.print(" *     ");
+					 }
+					 else if(i==4){
+						 System.out.print(" ***** ");
+					 }break;
+				 case '3':
+					 if(i==0){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==1){
+						 System.out.print("     * ");
+					 }
+					 else if(i==2){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==3){
+						 System.out.print("     * ");
+					 }
+					 else if(i==4){
+						 System.out.print(" ***** ");
+					 }break;
+				 case '4':
+					 if(i==0){
+						 System.out.print(" *   * ");
+					 }
+					 else if(i==1){
+						 System.out.print(" *   * ");
+					 }
+					 else if(i==2){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==3){
+						 System.out.print("     * ");
+					 }
+					 else if(i==4){
+						 System.out.print("     * ");
+					 }break;
+				 case '5':
+					 if(i==0){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==1){
+						 System.out.print(" *     ");
+					 }
+					 else if(i==2){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==3){
+						 System.out.print("     * ");
+					 }
+					 else if(i==4){
+						 System.out.print(" ***** ");
+					 }break;
+				 case '6':
+					 if(i==0){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==1){
+						 System.out.print(" *     ");
+					 }
+					 else if(i==2){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==3){
+						 System.out.print(" *   * ");
+					 }
+					 else if(i==4){
+						 System.out.print(" ***** ");
+					 }break;
+				 case '7':
+					 if(i==0){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==1){
+						 System.out.print("     * ");
+					 }
+					 else if(i==2){
+						 System.out.print("     * ");
+					 }
+					 else if(i==3){
+						 System.out.print("     * ");
+					 }
+					 else if(i==4){
+						 System.out.print("     * ");
+					 }break;
+				 case '8':
+					 if(i==0){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==1){
+						 System.out.print(" *   * ");
+					 }
+					 else if(i==2){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==3){
+						 System.out.print(" *   * ");
+					 }
+					 else if(i==4){
+						 System.out.print(" ***** ");
+					 }break;
+				 case '9':
+					 if(i==0){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==1){
+						 System.out.print(" *   * ");
+					 }
+					 else if(i==2){
+						 System.out.print(" ***** ");
+					 }
+					 else if(i==3){
+						 System.out.print("     * ");
+					 }
+					 else if(i==4){
+						 System.out.print("     * ");
+					 }break;
+				 }
+				 System.out.println();
+			 }
+		 }
+	 }
+ }
